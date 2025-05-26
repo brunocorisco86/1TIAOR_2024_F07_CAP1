@@ -32,14 +32,6 @@ O repositório contém os entregáveis da Fase 7, incluindo a dashboard consolid
 ```plaintext
 1TIAOR_FIAP_fase7_cap1/
 ├── .github/               # Configurações do GitHub (workflows, etc.)
-├── fase1/                 # Cálculos de área e manejo (Fase 1)
-├── fase2/                 # Banco de dados relacional (Fase 2)
-├── fase3/                 # IoT com ESP32 (Fase 3)
-├── fase4/                 # Dashboard inicial e ML (Fase 4)
-├── fase5/                 # Infraestrutura e mensageria AWS (Fase 5)
-├── fase6/                 # Visão computacional com YOLO (Fase 6)
-├── dashboard/              # Dashboard integrada da Fase 7
-├── ir_alem/               # Implementações opcionais (Rekognition ou algoritmo genético)
 ├── docs/                  # Documentação e diagramas
 ├── data/                  # Dados de entrada/saída
 ├── .gitattributes         # Configurações de atributos do Git
