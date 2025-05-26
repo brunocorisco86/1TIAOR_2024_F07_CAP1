@@ -26,19 +26,7 @@
 Este projeto, desenvolvido para a **Fase 7** do curso de Inteligência Artificial da FIAP, consolida os serviços das Fases 1 a 6 da **FarmTech Solutions**, uma empresa fictícia que oferece soluções de IA para o agronegócio. A Fase 7 integra módulos de cálculo de área, manejo de insumos, banco de dados relacional, IoT com ESP32, Machine Learning, visão computacional com YOLO e infraestrutura AWS em uma dashboard interativa. Um serviço de mensageria AWS (SNS/SQS) foi implementado para alertas em tempo real, com todos os serviços acessíveis via comandos no terminal ou botões na interface.
 
 O repositório contém os entregáveis da Fase 7, incluindo a dashboard consolidada, o serviço de mensageria e documentação detalhada, com opção de "ir além" via AWS Rekognition ou algoritmo genético.
-
-## 📂 Estrutura do Repositório
-
-```plaintext
-1TIAOR_FIAP_fase7_cap1/
-├── .github/               # Configurações do GitHub (workflows, etc.)
-├── docs/                  # Documentação e diagramas
-├── data/                  # Dados de entrada/saída
-├── .gitattributes         # Configurações de atributos do Git
-├── .gitignore             # Arquivos e pastas ignorados pelo Git
-└── README.md              # Este arquivo
-```
-
+;
 ## 📦 Entregáveis
 
 ### Entrega 1: Dashboard Integrada
