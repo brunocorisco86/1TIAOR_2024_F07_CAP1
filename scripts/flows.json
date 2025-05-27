@@ -1,0 +1,88 @@
+[
+    {
+        "id": "6ad6cf016510d09e",
+        "type": "delay",
+        "z": "08b9fb5ba7f61d15",
+        "name": "delay 300 segundos",
+        "pauseType": "rate",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "300",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": true,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 820,
+        "y": 160,
+        "wires": [
+            [
+                "ab8117322f5b0a0c"
+            ]
+        ]
+    },
+    {
+        "id": "ab8117322f5b0a0c",
+        "type": "function",
+        "z": "08b9fb5ba7f61d15",
+        "name": "Prepare to Thingspeak",
+        "func": "// Formata os dados para o ThingSpeak\nmsg.payload = {\n    api_key: \"TT8P0O24SKK6USPM\", // Substitua pelo seu Write API Key\n    field1: msg.payload.temperature,\n    field2: msg.payload.humidity,\n    created_at: msg.payload.timestamp\n};\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1060,
+        "y": 160,
+        "wires": [
+            [
+                "ec1942e2b557ec8f"
+            ]
+        ]
+    },
+    {
+        "id": "ec1942e2b557ec8f",
+        "type": "http request",
+        "z": "08b9fb5ba7f61d15",
+        "name": "http request",
+        "method": "POST",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "https://api.thingspeak.com/update",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 1270,
+        "y": 160,
+        "wires": [
+            [
+                "212f86ce1d24b1b3"
+            ]
+        ]
+    },
+    {
+        "id": "212f86ce1d24b1b3",
+        "type": "debug",
+        "z": "08b9fb5ba7f61d15",
+        "name": "debug http request",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1470,
+        "y": 160,
+        "wires": []
+    }
+]
