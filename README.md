@@ -44,8 +44,9 @@ Este repositório contém os artefatos finais da **Fase 7** do curso de IA da FI
 
 ### 🚩 Entrega 1: Dashboard Integrada
 - Unifica os serviços das Fases 1, 2, 3 e 6
-- Acesso via botões interativos
-- 📂 Código principal: `dashboard/dashboard.py`
+- 📂 Código principal: `script/streamlit.py`
+- Fluxo no Node-Red: `script/flows.json`
+- Codigo ESP8266: `script/esp8266.ino`
 - 🎥 [Vídeo demonstrativo (YouTube)](https://youtu.be/bz00SSZfo8M)
 
 ---
@@ -54,23 +55,8 @@ Este repositório contém os artefatos finais da **Fase 7** do curso de IA da FI
 - Alertas via e-mail/SMS com base em:
   - Sensores IoT (Fases 1 e 3)
   - Visão computacional (Fase 6)
-- 📂 Script: `fase5/alert_service.py`
-- 📄 Documentação: `docs/mensageria.pdf`
+- 📂 Script dashboard: `script/streamlit.py`
 
----
-
-### 🧠 Entrega 3: “Ir Além” (opcional)
-#### Opção 1 – AWS Rekognition
-- Tentativa de integração com reconhecimento de imagens
-- 📓 Notebook: `ir_alem/rekognition.ipynb`
-- 📄 Documentação: `docs/ir_alem_rekognition.md`
-- 🎥 Vídeo: [Link](#)
-
-#### Opção 2 – Algoritmo Genético
-- Otimização de uso de insumos
-- 📓 Notebook: `ir_alem/genetic_algorithm.ipynb`
-- 📄 Documentação: `docs/ir_alem_genetic.md`
-- 🎥 Vídeo: [Link](#)
 
 ---
 
