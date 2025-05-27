@@ -82,16 +82,6 @@ Este repositório contém os artefatos finais da **Fase 7** do curso de IA da FI
 
 ---
 
-## 🛠️ Como Executar
-
-### ✅ Pré-requisitos
-- Python 3.8+
-- Bibliotecas:
-  `streamlit`, `scikit-learn`, `pandas`, `numpy`, `boto3`, `opencv-python`, `yolov5`, `R`
-- AWS CLI configurado (AWS Learner Lab)
-- ESP32 com MicroPython ou Arduino IDE (opcional)
-- Jupyter Notebook
-
 ### ▶️ Passo a Passo
 
 1. **Clone o repositório**
