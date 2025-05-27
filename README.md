@@ -46,7 +46,7 @@ Este repositório contém os artefatos finais da **Fase 7** do curso de IA da FI
 - Unifica os serviços das Fases 1, 2, 3 e 6
 - Acesso via botões interativos
 - 📂 Código principal: `dashboard/dashboard.py`
-- 🎥 [Vídeo demonstrativo (YouTube)](https://www.youtube.com/watch?v=XXXXXXX)
+- 🎥 [Vídeo demonstrativo (YouTube)](https://youtu.be/bz00SSZfo8M)
 
 ---
 
