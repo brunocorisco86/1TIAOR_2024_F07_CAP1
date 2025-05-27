@@ -42,7 +42,7 @@ Este repositório contém os artefatos finais da **Fase 7** do curso de IA da FI
 
 ### 🚩 Entrega 1: Dashboard Integrada
 - Unifica os serviços das Fases 1, 2, 3 e 6
-- 📂 Código principal: `script/streamlit.py`
+- 📂 Script dashboard: `script/streamlit.py`
 - Fluxo no Node-Red: `script/flows.json`
 - Codigo ESP8266: `script/esp8266.ino`
 - 🎥 [Vídeo demonstrativo (YouTube)](https://youtu.be/bz00SSZfo8M)
@@ -53,7 +53,7 @@ Este repositório contém os artefatos finais da **Fase 7** do curso de IA da FI
 - Alertas via e-mail/SMS com base em:
   - Sensores IoT (Fases 1 e 3)
   - Visão computacional (Fase 6)
-- 📂 Script dashboard: `script/streamlit.py`
+
 
 
 ---
