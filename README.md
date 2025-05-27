@@ -32,11 +32,9 @@ Este repositório contém os artefatos finais da **Fase 7** do curso de IA da FI
 - Banco de dados relacional
 - IoT com ESP32
 - Machine Learning
-- Visão computacional com YOLO
 - Infraestrutura AWS (SNS/SQS)
 - Dashboard interativa com Streamlit
 
-> Os serviços podem ser acessados via comandos no terminal ou por botões na interface gráfica.
 
 ---
 
