@@ -52,6 +52,12 @@ O repositório contém os entregáveis da Fase 7, incluindo a dashboard consolid
   - Comparação de desempenho em `/docs/ir_alem_genetic.md`.
   - Vídeo de até 5 minutos (link no README).
 
+## 🧱 Arquitetura do Sistema
+
+<p align="center">
+  <img src="assets/arquitetura.drawio.png" alt="Arquitetura do Sistema FarmTech" width="80%">
+</p>
+
 ## 🔧 Como Utilizar
 
 ### Pré-requisitos
